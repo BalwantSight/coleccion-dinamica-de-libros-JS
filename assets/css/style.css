@@ -1,0 +1,106 @@
+body {
+  font-family: "EB Garamond", serif;
+  background-color: #475b42;
+  color: #fafaf9;
+  margin: 100px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+h1 {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.form-container {
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  padding: 20px;
+  border: 3px solid  #000000;
+  background-color: #feebca;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #0000001a;
+}
+
+.table-container {
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  width: auto;
+  overflow-y: auto;
+}
+
+.counter {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 30px;
+  color: #000000;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #2d2323;
+}
+
+th {
+  background-color: #4c3131;
+  font-weight: bold;
+}
+
+tr:hover {
+  background-color: #424b34;
+}
+
+button {
+  font-size: small;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.add-task {
+  height: 2.5em;
+  background-color: rgb(52, 119, 103);
+  color: #fff;
+  border: 2px solid #09090900;
+  border-radius: 4px;
+}
+
+#downloadListBtn {
+  height: 2.5em;
+  background-color: #af4c7d;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+.download-list-btn {
+  display: none;
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: #3498db;
+  color: #e4ba4f;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.download-list-btn:hover {
+  background-color: #2980b9;
+}

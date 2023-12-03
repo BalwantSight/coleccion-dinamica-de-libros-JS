@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/b45677e7c6.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&display=swap"
+    />
+    <title>Colección de Libros</title>
+  </head>
+  <body>
+    <h1>Colección de Libros</h1>
+
+    <div class="container">
+      <div class="form-container">
+        <input type="text" id="bookTitle" placeholder="Agrega un Título" />
+        <input type="text" id="bookAuthor" placeholder="Nombre del Autor" />
+        <input type="number" id="bookYear" placeholder="Año de Publicación" />
+        <input type="text" id="bookNationality" placeholder="Nacionalidad" />
+        <button class="add-task" id="addBookBtn">Agregar Libro</button>
+        <button id="downloadListBtn">Descargar Lista</button>>
+        <div class="counters">
+          <div class="counter">
+            Total de Libros Ingresados: <span id="totalCounter">0</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Nº</th>
+              <th>Título</th>
+              <th>Autor</th>
+              <th>Año</th>
+              <th>Nacionalidad</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody id="bookTable"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <script src="./assets/js/booklist.js"></script>
+  </body>
+</html>
