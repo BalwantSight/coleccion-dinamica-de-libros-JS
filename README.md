@@ -8,6 +8,7 @@ Funcionamiento:
 
 
 
-![listado](https://github.com/BalwantSight/coleccion-dinamica-de-libros-JS/assets/103304256/a12a933a-b08a-49ec-a23c-d1a4b3142dc3)
+![listadooo](https://github.com/BalwantSight/coleccion-dinamica-de-libros-JS/assets/103304256/e3619684-91a0-4bc6-9035-5fe5ebf6051a)
+
 
 
